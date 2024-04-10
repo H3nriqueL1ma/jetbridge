@@ -1,0 +1,20 @@
+@media screen and (max-width: 850px) {
+  #carousel img {
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 730px) {
+  #carousel img {
+    width: 80px !important;
+  }
+}
+@media screen and (max-width: 620px) {
+  #carousel img {
+    width: 70px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  #carousel img {
+    width: 60px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

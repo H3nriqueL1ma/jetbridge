@@ -7,6 +7,8 @@ $darkblue: #2C3E50
 
     header
         position: fixed
+        transition: all 0.5s
+        z-index: 2
 
         #menu
             background-color: transparent !important
@@ -41,6 +43,9 @@ $darkblue: #2C3E50
                             margin-left: 30px
 
     main
+        z-index: 0
+        color: #404040 !important
+
         #banner
             background: url(../img/Banner.png) no-repeat center center
             background-size: cover
@@ -68,10 +73,127 @@ $darkblue: #2C3E50
                     &:hover
                         transform: scale(1.05)
 
-        #carrousel-imgs
+        #carousel-imgs
             background-color: $darkblue
             color: white
 
+            #carousel
+                background-color: white
+
+                img
+                    width: 120px 
+                    filter: grayscale(100%)
+
+        #services
+            #title
+                margin-bottom: -20px
+
+                h1
+                    padding: 0 5px
+                    z-index: 1
+                    border-bottom: 4px solid #ffffff
+                    font-weight: 400
+
+            hr
+                z-index: 0
+
+        #members
+            margin-top: 8%
+
+            #content
+                #members-options
+                    width: 300px 
+                    margin-right: -23px !important
+                    z-index: 1
+
+                    ul
+                        list-style: none
+                        text-align: center
+                        width: 300px
+
+                        li
+                            padding: 15px 15px
+                            margin: 10px 0
+                            font-weight: 600
+                            font-size: 20px
+                            cursor: pointer
+
+                #member-content
+                    border: 1px solid #404040
+                    border-radius: 4px
+                    margin: 0 20px
+                    width: 700px
+                    z-index: 0
+
+                    #title
+                        text-align: right
+                        font-weight: 700
+                        width: 200px
+                        font-size: 50px
+                        margin: 20px 0
+
+                    #member-card
+                        margin-top: 40px !important
+                        margin-bottom: 40px !important
+                        height: 400px
+                        visibility: hidden
+
+                        img
+                            width: 120px
+                            height: 120px
+                            background-color: gray
+                            border-radius: 50%
+
+                        #member-name
+                            font-weight: 500
+                            border-top: 5px solid $blue
+                            padding: 8px 0
+
+        #clients
+            margin-top: 8%
+
+            h1
+                font-weight: 400
+
+            #card-client
+                width: 300px
+                height: 500px
+
+                #img-client-1
+                    background-size: 150px !important
+                    background: url(../img/cliente1.jpg) center center no-repeat
+
+                #img-client-2
+                    background-size: 200px !important
+                    background: url(../img/cliente2.jpg) center center no-repeat
+
+                #img-client-3
+                    background-size: 130px !important
+                    background: url(../img/cliente3.jpg) center center no-repeat
+
+                .img-client
+                    width: 130px
+                    height: 130px
+                    border-radius: 50%
+
+                #img-stars
+                    width: 130px
+                    margin: -40px 0 
+
+                h3
+                    color: #404040
+
+                p
+                    font-size: 15px
+                    color: #707070
+                    
+        #doubts
+            color: #404040
+            margin-top: 7%
+
+            b
+                color: #404040 !important
+                font-weight: 700 !important     
 
 .li-menu
     color: white !important
@@ -79,6 +201,42 @@ $darkblue: #2C3E50
 .carousel-item
     width: 50%
 
-.row-carousel
-    div + div
-        margin-left: 50px
+.col-carousel
+    height: 130px
+
+.card
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5)
+    border-radius: 20px
+    margin: 20px 0
+    width: 360px !important
+    padding: 20px 30px !important
+
+.service-card
+    cursor: pointer
+    transition: all 0.5s
+
+    &:hover
+        transform: scale(1.01)
+
+        i
+            transition: 0.5s
+            color: #165681 !important
+
+.button
+    border: 1px solid rgba(0, 0, 0, 0)
+    border-right: 4px solid rgba(255, 255, 255, 0)
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px
+
+.button.active
+    border: 1px solid black
+    border-right: 4px solid white
+
+.accordion-item
+    h2
+        button
+            font-weight: 600
+            color: #404040
+
+.accordion-button::after
+    filter: brightness(0) saturate(100%) invert(41%) sepia(97%) saturate(446%) hue-rotate(161deg) brightness(90%) contrast(86%) !important
