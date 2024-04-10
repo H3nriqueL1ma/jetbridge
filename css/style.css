@@ -1,0 +1,81 @@
+#container {
+  max-width: 100% !important;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+#container header {
+  position: fixed;
+}
+#container header #menu {
+  background-color: transparent !important;
+}
+#container header #menu button {
+  background-color: #2783C1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 15px;
+  font-weight: 500;
+  transition: 0.3s;
+  margin: 0 10px 0 0;
+}
+#container header #menu button:hover {
+  transform: scale(1.05);
+}
+#container header #menu #service-btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 8px 5px;
+}
+#container header #menu #navbar {
+  justify-content: space-evenly !important;
+}
+#container header #menu #navbar #navbarNav {
+  padding: 0 50px;
+}
+#container header #menu #navbar #navbarNav ul li + li {
+  margin-left: 30px;
+}
+#container main #banner {
+  background: url(../img/Banner.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+#container main #banner div {
+  width: 600px;
+}
+#container main #banner div h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+#container main #banner div button {
+  background-color: #2783C1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 15px;
+  font-weight: 500;
+  margin: 20px 130px;
+  transition: 0.3s;
+}
+#container main #banner div button:hover {
+  transform: scale(1.05);
+}
+#container main #carrousel-imgs {
+  background-color: #2C3E50;
+  color: white;
+}
+
+.li-menu {
+  color: white !important;
+}
+
+.carousel-item {
+  width: 50%;
+}
+
+.row-carousel div + div {
+  margin-left: 50px;
+}/*# sourceMappingURL=style.css.map */
