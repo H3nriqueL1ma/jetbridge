@@ -189,6 +189,33 @@
   color: #404040 !important;
   font-weight: 700 !important;
 }
+#container main #plans {
+  margin-top: 7%;
+}
+#container main #plans h2, #container main #plans h6 {
+  color: #404040;
+}
+#container main #plans ul {
+  padding: 0;
+}
+#container main #plans ul li {
+  margin: 15px 0;
+}
+#container main #plans ul li i {
+  font-size: 18px;
+}
+#container main #plans button {
+  background-color: #2783C1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 35px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+#container main #plans button:hover {
+  transform: scale(1.05);
+}
 
 .li-menu {
   color: white !important;
