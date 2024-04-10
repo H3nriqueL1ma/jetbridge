@@ -130,7 +130,6 @@
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   height: 400px;
-  visibility: hidden;
 }
 #container main #members #content #member-content #member-card img {
   width: 120px;
@@ -215,6 +214,33 @@
 }
 #container main #plans button:hover {
   transform: scale(1.05);
+}
+#container main #rodape {
+  background-color: lightgray;
+}
+#container main #rodape button {
+  background-color: white;
+  color: #2783C1;
+  border: 3px solid #2783C1;
+  border-radius: 20px;
+  padding: 7px 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+#container main #rodape button:hover {
+  transform: scale(1.05);
+  background-color: #2783C1;
+  color: white;
+}
+#container main #rodape #footer-content {
+  padding: 0 50px;
+}
+#container main #rodape #footer-content p {
+  width: 470px;
+}
+#container main #rodape #btns-footer i {
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .li-menu {

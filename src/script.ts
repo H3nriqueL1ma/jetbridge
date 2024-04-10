@@ -46,24 +46,28 @@ btn_henrique.addEventListener("click", () => {
 })
 
 btn_fernando.addEventListener("click", () => {
+    btn_henrique.classList.remove("active");
     member_card.style.visibility = "visible";
     content_name.innerText = "Fernando";
     content_office.innerText = "Desenvolvedor Fullstack";
 })
 
 btn_bianca.addEventListener("click", () => {
+    btn_henrique.classList.remove("active");
     member_card.style.visibility = "visible";
     content_name.innerText = "Bianca";
     content_office.innerText = "Designer e Desenvolvedora Fronted";
 })
 
 btn_joao.addEventListener("click", () => {
+    btn_henrique.classList.remove("active");
     member_card.style.visibility = "visible";
     content_name.innerText = "João Pedro";
     content_office.innerText = "Desenvolvedor Frontend";
 })
 
 btn_vitor.addEventListener("click", () => {
+    btn_henrique.classList.remove("active");
     member_card.style.visibility = "visible";
     content_name.innerText = "Vitor";
     content_office.innerText = "Desenvolvedor Frontend";
